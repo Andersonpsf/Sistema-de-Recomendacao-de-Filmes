@@ -1,0 +1,60 @@
+John Wick | Acao | 2014 | Chad Stahelski
+Missao Impossivel: Efeito Fallout | Acao | 2018 | Christopher McQuarrie
+Gladiador | Acao,Drama | 2000 | Ridley Scott
+Mad Max: Estrada da Furia | Acao,Ficcao Cientifica | 2015 | George Miller
+Os Vingadores | Acao,Ficcao Cientifica | 2012 | Joss Whedon
+Batman: O Cavaleiro das Trevas | Acao,Drama | 2008 | Christopher Nolan
+Duro de Matar | Acao | 1988 | John McTiernan
+Velocidade Maxima | Acao | 1994 | Jan de Bont
+O Protetor | Acao | 2014 | Antoine Fuqua
+Resgate | Acao | 2020 | Sam Hargrave
+As Branquelas | Comedia | 2004 | Keenen Ivory Wayans
+Superbad | Comedia | 2007 | Greg Mottola
+Se Beber, Nao Case | Comedia | 2009 | Todd Phillips
+Click | Comedia,Drama | 2006 | Frank Coraci
+Gente Grande | Comedia | 2010 | Dennis Dugan
+O Ancora | Comedia | 2004 | Adam McKay
+Esposa de Mentirinha | Comedia,Romance | 2011 | Dennis Dugan
+A Mentira | Comedia | 2010 | Will Gluck
+Ted | Comedia | 2012 | Seth MacFarlane
+Jumanji: Bem-Vindo a Selva | Acao,Comedia | 2017 | Jake Kasdan
+A Espera de um Milagre | Drama | 1999 | Frank Darabont
+Forrest Gump | Drama,Romance | 1994 | Robert Zemeckis
+Clube da Luta | Drama | 1999 | David Fincher
+A Procura da Felicidade | Drama | 2006 | Gabriele Muccino
+12 Anos de Escravidao | Drama | 2013 | Steve McQueen
+O Quarto de Jack | Drama | 2015 | Lenny Abrahamson
+O Pianista | Drama | 2002 | Roman Polanski
+A Vida e Bela | Drama | 1997 | Roberto Benigni
+Cisne Negro | Drama | 2010 | Darren Aronofsky
+O Curioso Caso de Benjamin Button | Drama | 2008 | David Fincher
+Orgulho e Preconceito | Romance | 2005 | Joe Wright
+Diario de uma Paixao | Romance | 2004 | Nick Cassavetes
+Titanic | Romance,Drama | 1997 | James Cameron
+La La Land | Romance,Musical | 2016 | Damien Chazelle
+Simplesmente Amor | Romance,Comedia | 2003 | Richard Curtis
+Como Eu Era Antes de Voce | Romance | 2016 | Thea Sharrock
+Um Amor para Recordar | Romance | 2002 | Adam Shankman
+500 Dias com Ela | Romance,Drama | 2009 | Marc Webb
+Cidade dos Anjos | Romance,Drama | 1998 | Brad Silberling
+O Lado Bom da Vida | Romance,Drama | 2012 | David O. Russell
+Invocacao do Mal | Terror | 2013 | James Wan
+O Exorcista | Terror | 1973 | William Friedkin
+Hereditario | Terror | 2018 | Ari Aster
+A Entidade | Terror | 2012 | Scott Derrickson
+Corra! | Terror,Suspense | 2017 | Jordan Peele
+Atividade Paranormal | Terror | 2007 | Oren Peli
+It: A Coisa | Terror | 2017 | Andy Muschietti
+A Bruxa | Terror | 2015 | Robert Eggers
+O Iluminado | Terror | 1980 | Stanley Kubrick
+Annabelle | Terror | 2014 | John R. Leonetti
+Interestelar | Ficcao Cientifica | 2014 | Christopher Nolan
+A Origem | Ficcao Cientifica,Acao | 2010 | Christopher Nolan
+Matrix | Ficcao Cientifica,Acao | 1999 | Irmaos Wachowski
+O Predestinado | Ficcao Cientifica | 2014 | Michael Spierig
+Gravidade | Ficcao Cientifica,Drama | 2013 | Alfonso Cuaron
+O Jogo da Imitacao | Drama,Ficcao Cientifica | 2014 | Morten Tyldum
+O Homem Bicentenario | Ficcao Cientifica,Drama | 1999 | Chris Columbus
+O Hospedeiro | Ficcao Cientifica | 2006 | Bong Joon-ho
+Distrito 9 | Ficcao Cientifica | 2009 | Neill Blomkamp
+Lunar | Ficcao Cientifica | 2009 | Duncan Jones

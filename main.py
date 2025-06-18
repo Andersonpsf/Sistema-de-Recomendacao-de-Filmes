@@ -1,5 +1,5 @@
 import time 
-
+base = open("BaseDeDados.txt", "r")
 while True:
     print("=" * 22)
     print("Recomendação de Filmes")
@@ -9,24 +9,26 @@ while True:
     print("3 - Buscar por Gênero")
     print("4 - Sair")
 
-    encontrado = False
 
     escolha = int(input("Opção: "))
     if escolha ==1:
-        base = open("BaseDeDados.txt", "r")
         texto = base.read()
         print(texto)
     elif escolha==2:
-        base = open("BaseDeDados.txt", "r")
-        nome = (input("Digite o nome do filme: ")).capitalize()
-        print(nome)
+        
+        nome = input("Digite o nome do filme: ").lower()
         for line in base:
             filmes = line.split("|")
-            if nome in filmes[0]:
+            if nome in filmes[0].strip().lower():
                 print(line)
-                encontado = True
-                break
+            
 
+    elif escolha==3:
+        genero = input("Genero: ").lower()
+        for line in base:
+            filmes = line.split("|")
+            if genero in  filmes[1].lower():
+                print(line)
             
     elif escolha == 4:
         print("Você saiu do programa.")

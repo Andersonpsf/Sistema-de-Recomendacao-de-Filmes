@@ -1,4 +1,40 @@
-import time 
+def MostrarFilmes():
+    base = open("BaseDeDados.txt", "r")
+    texto = base.read()
+    print(texto)
+
+def MostrarRecomendarFilmes(encontrado, nome):
+    with open("BaseDeDados.txt", "r") as base:
+        linhas = base.readlines()
+        
+    for line in linhas:
+        filmes = line.split("|")
+        if nome in filmes[0].lower():
+            relacionados = filmes[1]
+            encontrado=True
+            print(line)
+    
+    if encontrado==False:
+        print("Nenhum resultado encontrado")
+    
+    else:
+        print("Filmes Recomendados: ")
+        for line in linhas:
+            filmes = line.split("|")
+            if relacionados in filmes[1]:
+                print(line)
+
+
+def MostrarPorGenero(encontrado, genero):
+    base = open("BaseDeDados.txt", "r")
+    for line in base:
+        filmes = line.split("|")
+        if genero in filmes[1].lower():
+            encontrado=True
+            print(line)
+    if encontrado==False:
+        print("Nenhum resultado encontrado")
+
 
 while True:
     print("=" * 22)
@@ -11,33 +47,17 @@ while True:
     encontrado = False
 
     escolha = int(input("Opção: "))
-    if escolha ==1:
-        base = open("BaseDeDados.txt", "r")
-        texto = base.read()
-        print(texto)
+    if escolha == 1:
+        MostrarFilmes()
 
     elif escolha==2:
-        base = open("BaseDeDados.txt", "r")
         nome = input("\nDigite o nome do filme: ").lower()
-        for line in base:
-            filmes = line.split("|")
-            if nome in filmes[0].lower():
-                encontrado=True
-                print(line)
-        if encontrado == False:
-            print("Filme não encontrado")
-            
-
+        MostrarRecomendarFilmes(encontrado, nome)
+ 
     elif escolha==3:
-        base = open("BaseDeDados.txt", "r")
         genero = input("\nGenero: ").lower()
-        for line in base:
-            filmes = line.split("|")
-            if genero in  filmes[1].lower():
-                encontrado = True
-                print(line)
-        if encontrado==False:
-            print("Genero não encontrado")
+        MostrarPorGenero(encontrado,genero)
+
 
     elif escolha == 4:
         print("Você saiu do programa.")

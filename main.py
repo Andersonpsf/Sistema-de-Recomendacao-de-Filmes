@@ -6,7 +6,7 @@ def MostrarFilmes():
 def MostrarRecomendarFilmes(encontrado, nome):
     with open("BaseDeDados.txt", "r") as base:
         linhas = base.readlines()
-        
+
     for line in linhas:
         filmes = line.split("|")
         if nome in filmes[0].lower():
@@ -18,11 +18,14 @@ def MostrarRecomendarFilmes(encontrado, nome):
         print("Nenhum resultado encontrado")
     
     else:
-        print("Filmes Recomendados: ")
+        print("Filmes Recomendados com base na pesquisa: ")
         for line in linhas:
             filmes = line.split("|")
-            if relacionados in filmes[1]:
-                print(line)
+            if nome in filmes[0].lower():
+                pass
+            else:
+                if relacionados in filmes[1]:
+                    print(line)
 
 
 def MostrarPorGenero(encontrado, genero):
